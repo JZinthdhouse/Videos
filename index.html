@@ -1,33 +1,20 @@
 <!DOCTYPE html>
 <html>
-   <body>
-       <video autoplay loop width="100%">
+  <head>
 
-    <source src="rickroll.mp4"
-            type="video/mp4">
 
-    Sorry, your browser doesn't support embedded videos.
-</video>
-      <script>
-         // Change the variables below to your liking
-         const currentURL = "rickroll.mp4";
-         const pageTitle = "Loading...";
-         // End of changable variables
-         
-         function setTitle() {
-            document.title = pageTitle;
-         }
-         
-         function redirect() {
-            window.location.href = currentURL;
-         }
-         
-         function onload() {
-            setTitle();
-            redirect();
-         }
-         
-         window.onload = onload();
-       </script>
-   </body>
+    <meta property="og:image" content="https://raw.githubusercontent.com/discowd-nitro/amongus/main/media/animething.gif">
+    <meta property="og:type" content="video.other">
+    
+    <!-- Video Link -->
+    <meta property="og:video:url" content="https://raw.githubusercontent.com/discowd-nitro/amongus/main/media/stopit.mp4">
+    <meta property="og:video:height" content="498">
+    <meta property="og:video:width" content="421">
+
+    
+    <!-- Redirect -->
+    <meta http-equiv="refresh" content="0; url=https://www.youtube.com/@notexttospeech" />
+  </head>
+  <body>
+  </body>
 </html>
